@@ -146,13 +146,13 @@ for i in range(1,10):
     for j in range(1,10):
         #print str(i),'*',str(j),'=',i*j
         print '%d * %d = %d' %(i,j,i*j)
-#case 9(抄写)
+#case 9(多练习)
 import time
 myD = {1:'a',2:'b'}
 for key,value in dict.items(myD):
     print key,value
     time.sleep(1)
-#case 10(抄写)
+#case 10(多练习)
 import time
 print time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time()))
 time.sleep(1)
